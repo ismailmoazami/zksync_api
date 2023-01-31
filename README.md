@@ -13,9 +13,11 @@ And also we will use python language beacuse most of the Data Scientists and par
 We will use api v0.2 of zksync for getting transactions data which is a rest API and you can find docs here : https://docs.zksync.io/apiv02-docs/
 There are a lot of endpoints for different purposes but for this tutorial our focus will be on getting transactions data of one specific account in blockchain, which is very important for hackathon participants to use this for sybil detection algorithms etc.
 
-before starting to explain the source code we need to install requests package, that we will be using to working with APIs with this commend : pip install requests 
-
-Now lets dive into the code: 
+before starting to explain the source code we need to install requests package, that we will be using to working with APIs with this commend : 
+```
+pip install requests 
+```
+Now lets dive into the zksync.py code: 
 
 ``` 
 
