@@ -37,8 +37,3 @@ class ZkTrack:
         response = request.json()
         return response['result']['committed']['balances']['ETH']
 
-if __name__ == '__main__':
-    account_1 = ZkTrack("0x45b381A5b6eD9312926c1faC846696D33AE1C0dB")
-    txns = account_1.get_transfers()
-    account_balance = account_1.get_balance()
-    
